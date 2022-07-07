@@ -1,6 +1,8 @@
 # Tilt-Tech
 Tilt Tech exercice
 
+Technologies: html, css, javascript, sql
+
 Prerequisite download:
 node.js
 sqlite3
