@@ -5,7 +5,6 @@ Technologies: html, css, javascript, sql
 
 Prerequisite download:
 node.js
-sqlite3
 
 Here are the following steps to launch the project:
 1) Download or fork Tilt-Tech folder
