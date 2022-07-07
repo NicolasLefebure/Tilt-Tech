@@ -17,4 +17,6 @@ Here are the following steps to launch the project:
 - node server
 4) Got to server.js file in editor -> run
 
-
+Help
+npm install --save-dev electron-rebuild
+npm install --target_arch=arm64
