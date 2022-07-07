@@ -15,7 +15,7 @@ Here are the following steps to launch the project:
 - npm install --save sqlite3
 - npm install --save body-parser
 - node server
-4) Got to server.js file in editor -> run
+4) Got to server.js file in editor -> run or go to url http://localhost:3000/hello.html
 
 Help
 npm install --save-dev electron-rebuild
