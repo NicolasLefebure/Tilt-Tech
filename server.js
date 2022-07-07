@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', function(request, response){
-    response.send('Hello, Word');
+    response.redirect('http://localhost:3000/hello.html');
 });
 
 app.get('/datatilt', function(request, response){
