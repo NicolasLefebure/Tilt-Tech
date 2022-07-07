@@ -20,4 +20,5 @@ Here are the following steps to launch the project:
 Help
 - npm install --save-dev electron-rebuild
 - npm install --target_arch=arm64
-- npm i cjs-loader
+- npm i cjs-loader (584)
+- rm -rf node_modules package-lock.json && npm install && npm start (936)
