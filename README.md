@@ -18,5 +18,6 @@ Here are the following steps to launch the project:
 4) Got to server.js file in editor -> run or go to url http://localhost:3000/hello.html
 
 Help
-npm install --save-dev electron-rebuild
-npm install --target_arch=arm64
+- npm install --save-dev electron-rebuild
+- npm install --target_arch=arm64
+- npm i cjs-loader
