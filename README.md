@@ -12,7 +12,7 @@ Here are the following steps to launch the project:
 3) Apply the following commands:
 - npm init
 - npm install --save express
-- npm install sqlite3
+- npm install --save sqlite3
 - npm install --save body-parser
 - node server
 4) Got to server.js file in editor -> run
