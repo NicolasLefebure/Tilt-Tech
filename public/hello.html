@@ -14,61 +14,73 @@
     <article>
       <img src="test_img.jpg"/>
     </article>
-    <!-- <h2>Get more information about our analysis using thins <a
-      href="https://docs.google.com/document/d/1AKirAz_fy6M2nGrH3CdIJHZqEBovY7cVb6hOx196cPU/edit">link</a>.</h2>
-     <h3> What is your total consumption measured in daily [kWh] ?</h3>
-    <input id="T"/>
-    <button id="Submit">Submit</button> -->
     <div class="container">
       <div class="title">Enter your equipment information:</div>
       <form action = "/datatilt" method="POST">
         <div class="input-text">
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" name="lname" placeholder="johndoe@gmail.com" required><br><br>
+            <input type="email" name="lname" placeholder="johndoe@gmail.com" required><br><br>
           </div>
           <div class="input-box">
             <span class="details">Total measured consumption</span>
-            <input type="text" name="fname" placeholder="100 [kWh]" required><br><br>
+            <input type="text" name="fname" placeholder="65 [kWh/day]" required><br><br>
           </div>
           <div class="input-box">
             <span class="details">Number of fridges</span>
-            <input type="text" name="Fridgename" placeholder="1" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="Fridgename" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of washing machines</span>
-            <input type="text" name="WashingMachinename" placeholder="1" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="WashingMachinename" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of TVs</span>
-            <input type="text" name="TVname" placeholder="0" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="TVname" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of freezers</span>
-            <input type="text" name="Freezername" placeholder="2" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="Freezername" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of dishwashers</span>
-            <input type="text" name="Dishwashername" placeholder="1" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="Dishwashername" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of induction stoves</span>
-            <input type="text" name="InductionStovename" placeholder="2" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="InductionStovename" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of small lights</span>
-            <input type="text" name="SmallLightname" placeholder="4" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="SmallLightname" value="0" required><br><br>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">Number of big lights</span>
-            <input type="text" name="BigLightname" placeholder="2" required><br><br>
+            <div class="number-wrapper">
+              <input type="number" min="0" step="1" name="BigLightname" value="0" required><br><br>
+            </div>
           </div>
         </div>
-        <input type="submit" value="Submit">
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
       </form>
     </div>
     <div class="Answers" id="Answers">
-      <!--<div class="title2"></div> -->
     </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="script.js"></script>
