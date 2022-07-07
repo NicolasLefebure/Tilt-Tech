@@ -2,8 +2,8 @@
 Tilt Tech exercice
 
 Prerequisite download:
-download node.js
-download sqlite3
+node.js
+sqlite3
 
 Here are the following steps to launch the project:
 1) Download or fork Tilt-Tech folder
